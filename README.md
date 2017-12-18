@@ -1,2 +1,27 @@
-# css3-fontFace
-css之自定义字体
+# css3自定义字体
+
+> 自定义字体使用： @font-face
+
+```js
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title></title>
+      <style media="screen">
+        @font-face {
+          font-family: 'my-font';
+          src: url('font.ttf');
+        }
+        h1{
+          font-family: 'my-font';
+        }
+      </style>
+    </head>
+    <body>
+        <h1>回复时刻记得发货快速的恢复快速的回复客户收到付款</h1>
+    </body>
+  </html>
+
+```
